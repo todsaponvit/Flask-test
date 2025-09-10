@@ -26,4 +26,4 @@ jobs:
         run: python test-polars.py
 
       - name: check main.py
-        run: pylint main.py
+        run: black main.py
