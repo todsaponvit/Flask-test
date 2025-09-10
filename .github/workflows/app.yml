@@ -20,4 +20,4 @@ jobs:
         run: pip install -r requirements.txt # If you have a requirements.txt
 
       - name: Run Python script
-        run: python my_script.py # Replace my_script.py with your script's name
+        run: python pandas.py # Replace my_script.py with your script's name
