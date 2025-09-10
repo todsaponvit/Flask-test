@@ -24,6 +24,3 @@ jobs:
 
       - name: Run Python script plars
         run: python test-polars.py
-
-      - name: check main.py
-        run: black main.py
